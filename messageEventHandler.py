@@ -5,3 +5,4 @@ class MessageEventHandler:
     async def EvaluateMessage(message):
         if(message.content == "hello Sherlock"):
             await message.channel.send("Hello")
+            
